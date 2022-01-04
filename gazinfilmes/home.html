@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styel.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+</head>
+ 
+<body>
+
+
+    <div class="modal fade" id="modal-filme">
+        <div class="modal-dialog">
+            <div class="modal-conent">
+                <h1>Ola</h1>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid">
+        <header class="row">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <ul class="menu_list">
+                    <li>
+                        <a href="#">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="#">Lancamentos</a>
+                    </li>
+                    <li>
+                        <a href="#">Populares</a>
+                    </li>
+                    <li>
+                        <a href="#">Minha Lista</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+    </div>
+
+
+    <div id="hero" class="container-fluid">
+        <div class="container">
+            <div class="row" id="hero_infos">
+                <div class="col-6">
+                    <img class="logo" src="">
+                    <h1 class="text-white">JUMANJI</h1>
+                    <p class="text-white">Quatro adolescentes encontram um videogame cuja ação se passa em uma floresta
+                        tropical. Empolgados com o jogo, eles escolhem seus avatares para o desafio, mas um evento
+                        inesperado faz com que eles sejam transportados para dentro do universo fictício,
+                        transformando-os nos personagens da aventura.
+                    </p>
+                    <br>
+                    <button class="btn btn-lg btn-custom-white">
+                        Assistir
+                    </button>
+                    <button class="btn btn-lg btn-custom-translucent">
+                        Mais Informações
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="main-content">
+        <section>
+            <div class="container">
+                <div class="col-12">
+                    <h5 class="text-white">Filmes Populares</h5>
+                </div>
+            </div>
+            <div class="col-12">
+                <ul class="filmes_lista">
+                    <li class="filme" data-toggle="modal" data-target="#modal-filme">
+                        <img class="img-fluid" src="assets/filmes/bliss.png" alt="">
+                        <div class="filme_info">
+                            <h4>Bliss</h4>
+                            <p>2021</p>
+                        </div>
+                    </li>
+                    <li class="filme" data-toggle="modal" data-target="#modal-filme">
+                        <img class="img-fluid" src="assets/filmes/bry.png" alt="">
+                        <div class="filme_info">
+                            <h4>Framing Britiney</h4>
+                            <p>2021</p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="assets/filmes/malcon.png" alt="">
+                        <div class="filme_info">
+                            <h4>Malcon & Marie</h4>
+                            <p>2021</p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="assets/filmes/mate ou morra.png" alt="">
+                        <div class="filme_info">
+                            <h4>Mate ou Morra</h4>
+                            <p>2021</p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="assets/filmes/mulher.png" alt="">
+                        <div class="filme_info">
+                            <h4>Wolder Woman </h4>
+                            <p>2021</p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="assets/filmes/new.png" alt="">
+                        <div class="filme_info">
+                            <h4>News of the word</h4>
+                            <p>2021</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="col-12">
+                    <h5 class="text-white">Proximos Lançamentos</h5>
+                </div>
+            </div>
+            <div class="col-12">
+                <ul class="filmes_lista">
+                    <li class="filme">
+                        <img class="img-fluid" src="assets/filmes/the.png" alt="">
+                        <div class="filme_info">
+                            <h4>The Little things</h4>
+                            <p>2021</p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="assets/filmes/depois.png" alt="">
+                        <div class="filme_info">
+                            <h4>Depois da Terra</h4>
+                            <p>2020</p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="assets/filmes/finch.png" alt="">
+                        <div class="filme_info">
+                            <h4>Finch</h4>
+                            <p>2021</p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="assets/filmes/lenda.png" alt="">
+                        <div class="filme_info">
+                            <h4>Eu sou a lenda</h4>
+                            <p>2021</p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="assets/filmes/powe.png" alt="">
+                        <div class="filme_info">
+                            <h4>Project Power</h4>
+                            <p>2021</p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="assets/filmes/malcon.png" alt="">
+                        <div class="filme_info">
+                            <h4>Malcon & Marie</h4>
+                            <p>2020</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="col-12">
+                    <h5 class="text-white">Atores Populares</h5>
+                </div>
+            </div>
+            <div class="col-12">
+                <ul class="filmes_lista">
+                    <li class="filme">
+                        <img class="img-fluid" src="assets/atores/Adam.png" alt="">
+                        <div class="filme_info">
+                            <h4>Malcon Driver</h4>
+                            <p>38</p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="assets/atores/angelina.png" alt="">
+                        <div class="filme_info">
+                            <h4>Angelina Jolie</h4>
+                            <p>55</p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="assets/atores/harry.png" alt="">
+                        <div class="filme_info">
+                            <h4>Harry Styles</h4>
+                            <p>25</p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="assets/atores/kit.png" alt="">
+                        <div class="filme_info">
+                            <h4>Kit Harington</h4>
+                            <p>36</p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="assets/atores/mina.png" alt="">
+                        <div class="filme_info">
+                            <h4>Meg Ryan</h4>
+                            <p>60</p>
+                        </div>
+                    </li>
+                    <li class="filme">
+                        <img class="img-fluid" src="assets/atores/william.png" alt="">
+                        <div class="filme_info">
+                            <h4>Wolfgang</h4>
+                            <p>53</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="footer">
+            <div class="container">
+                <ul>
+                    <li class="roda-pe"> 
+                        <h1> Gazin films 2021 </h1>
+                        <p>Desenvolvido por Vinicius Augustus</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+</body>
+
+</html>
